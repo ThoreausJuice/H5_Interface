@@ -101,3 +101,35 @@ body {
   border-color: transparent;
   box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
 }
+
+/* 以下为新增 */
+.pagination-container {
+  text-align: center;
+}
+
+/* .pagination {
+  display: inline-block;
+} */
+
+.pagination a {
+  background-color: #999;
+  color: #fff;
+  padding: 1px 6px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.pagination a.active {
+  background-color: #85D1FF;
+}
+
+.page-change {
+  margin: 0 15px;
+  cursor: pointer;
+}
+
+.skip input {
+  width: 50px;
+}
